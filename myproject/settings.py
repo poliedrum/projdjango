@@ -83,6 +83,8 @@ DATABASES = {
         'NAME':     config('DB_NAME'),
         'USER':     config('DB_USER'),
         'PASSWORD': config('DB_PW'),
+        'HOST':     config('DB_HOST', default='127.0.0.1'),
+        'PORT':     config('DB_PORT', default=5432, cast=int),
         #"OPTIONS": {
         #    "service": "my_service",
         #    "passfile": ".my_pgpass",
