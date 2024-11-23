@@ -43,8 +43,8 @@ local_settings.py
 
 .env
 db.sqlite3
-myproject/settings_dev.py
-myproject/settings_prod.py
-myproject/settings.py
-myproject/settings_shared.py
+#myproject/settings_dev.py
+#myproject/settings_prod.py
+#myproject/settings.py
+#myproject/settings_shared.py
 
